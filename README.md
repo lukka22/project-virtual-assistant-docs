@@ -15,10 +15,10 @@ bundle _2.4.22_ install
 bundle _2.4.22_ binstubs jekyll --path .\bin
 
 # Run local server
-.\bin\jekyll serve --source . --destination _site
+.\bin\jekyll serve --source docs --destination _site
 ```
 
-Open `http://localhost:4000`.
+Open `http://localhost:4000/project-virtual-assistant-docs/`.
 
 ## Optional: Quick static preview (no theme)
 
